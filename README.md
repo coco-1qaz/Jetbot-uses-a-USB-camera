@@ -5,3 +5,7 @@ and
 >''cd jetcam''
 and
 >''sudo python3 setup.py install''
+#Or-download-jetcam-and-run-the-following-command
+>''cd jetcam''
+and
+>''sudo python3 setup.py install''
