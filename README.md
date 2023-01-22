@@ -27,7 +27,9 @@ Keep the video going
 >def update_image(change):
 
 
->    image = change['new'] /n
+>    image = change['new'] 
+
+
 >    image_widget.value = bgr8_to_jpeg(image)
 
     
