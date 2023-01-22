@@ -1,17 +1,18 @@
 # Jetbot-uses-a-USB-camera
 Run the following command in the jetbot terminal:
->''git clone https://github.com/NVIDIA-AI-IOT/jetcam''
-and
->''cd jetcam''
+>git clone https://github.com/NVIDIA-AI-IOT/jetcam
 
 and
->''sudo python3 setup.py install''
+>cd jetcam
+
+and
+>sudo python3 setup.py install
 
 Or-download-jetcam-and-run-the-following-command
->''cd jetcam''
+>cd jetcam
 
 and
->''sudo python3 setup.py install''
+>sudo python3 setup.py install
 
 run
 >from jetcam import USBCamera
@@ -26,9 +27,7 @@ Keep the video going
 >def update_image(change):
 
 
->    image = change['new']
-
-
+>    image = change['new'] /n
 >    image_widget.value = bgr8_to_jpeg(image)
 
     
