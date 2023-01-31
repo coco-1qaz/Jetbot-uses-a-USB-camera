@@ -11,9 +11,6 @@ and
 Or-download-jetcam-and-run-the-following-command
 >cd jetcam
 
-and
->sudo python3 setup.py install
-
 And modify the __init__.py in jetcam in jetcam to:
 
 >from .camera import Camera
@@ -23,6 +20,11 @@ And modify the __init__.py in jetcam in jetcam to:
 >from .usb_camera import USBCamera
 
 >from .utils import bgr8_to_jpeg
+
+and
+>sudo python3 setup.py install
+
+
 
 run
 >from jetcam import USBCamera
