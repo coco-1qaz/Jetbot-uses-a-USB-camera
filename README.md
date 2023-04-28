@@ -37,3 +37,5 @@ def update_image(change):
     image_widget.value = bgr8_to_jpeg(image)
 camera.observe(update_image, names='value')
 ```
+---
+Jetbot's changed code instance can be downloaded directly on My Library
